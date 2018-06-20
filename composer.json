@@ -1,4 +1,7 @@
-{
+{	
+	"repositories": [
+		{ "type": "vcs", "url": "https://github.com/cron-eu/formhandler" }
+	],
 	"name": "de-swebhosting-typo3-extension/formhandler-subscription",
 	"description": "(Un-)Subscribe functionality for formhandler",
 	"type": "typo3-cms-extension",
@@ -8,7 +11,7 @@
 		"formhandler_subscription": "self.version"
 	},
 	"require": {
-		"typo3-ter/formhandler": "^2.1.0",
+		"phorax/formhandler": "dev-cron#e3bd0f3542c69db75e9e02832fd8bdd8fd2f01aa",
 		"intera-typo3-extension/authcode": ">=0.2.0"
 	},
 	"suggest": {
