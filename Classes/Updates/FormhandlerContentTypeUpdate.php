@@ -60,4 +60,9 @@ class FormhandlerContentTypeUpdate extends AbstractUpdate
 
         return true;
     }
+
+    protected function getDatabaseConnection()
+    {
+        return $GLOBALS['TYPO3_DB'];
+    }
 }
